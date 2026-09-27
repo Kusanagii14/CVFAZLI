@@ -1,0 +1,117 @@
+/* Tampilan dasar */
+body {
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.5;
+color: #333333;
+background-color: #ffffff;
+max-width: 850px;
+margin: 30px auto;
+padding: 0 20px;
+}
+
+/* Header Profil */
+.profile-header {
+display: flex;
+align-items: flex-start;
+gap: 25px;
+margin-bottom: 25px;
+}
+
+.profile-img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+object-position: 50% 10%; 
+}
+
+/* Profile Info */
+.profile-info {
+flex: 1;
+display: flex;
+flex-direction: column;
+}
+
+.profile-info h1 {
+color: #0056b3;
+font-size: 24px;
+font-weight: bold;
+margin: 0 0 10px 0;
+letter-spacing: 0.5px;
+}
+
+.profile-info .summary {
+font-size: 13.5px;
+color: #444444;
+margin: 0 0 12px 0;
+line-height: 1.5;
+text-align: justify;
+}
+
+.profile-info .contact {
+font-size: 13.5px;
+color: #333333;
+margin: 0 0 3px 0;
+}
+
+.profile-info .contact a {
+color: #0056b3;
+text-decoration: underline;
+}
+
+.profile-info .address {
+font-size: 13.5px;
+color: #555555;
+margin: 0;
+}
+
+/* Section Headings (Judul Utama) */
+h2 {
+color: #0056b3;
+font-size: 16px;
+font-weight: bold;
+text-transform: uppercase;
+border-bottom: 2px solid #0056b3;
+padding-bottom: 4px;
+margin-top: 25px;
+margin-bottom: 12px;
+}
+
+/* Sub-headings */
+h3 {
+color: #222222;
+font-size: 15px;
+font-weight: bold;
+margin: 15px 0 3px 0;
+}
+
+.sub-title {
+font-weight: bold;
+font-size: 13.5px;
+color: #444444;
+margin: 3px 0 5px 0;
+}
+
+.date {
+font-size: 13.5px;
+color: #666666;
+margin: 2px 0 5px 0;
+}
+
+/* List / Bullet Points */
+ul {
+margin: 5px 0 15px 0;
+padding-left: 20px;
+}
+
+li {
+font-size: 13.5px;
+color: #333333;
+margin-bottom: 4px;
+}
+
+/* Keterampilan */
+.skills-list p {
+font-size: 13.5px;
+margin: 5px 0;
+}
